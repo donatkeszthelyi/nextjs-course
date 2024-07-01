@@ -27,7 +27,7 @@ export type State = {
     amount?: string[];
     status?: string[];
   };
-  message?: string | null;
+  message?: string;
 };
 
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
